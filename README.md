@@ -13,7 +13,7 @@ cf login [your-cloudfoundry-email]
 
 ### Pushing the sample app
 ```
-git clone https://github.com/ochamber/WordPress-oliv-cf.git
-cd cf-wordpress
+git clone https://github.com/ochamber/WordPress-oliv-cf
+cd Wordpress-oliv-cf
 cf push
 ```
