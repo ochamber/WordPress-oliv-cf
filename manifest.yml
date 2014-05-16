@@ -1,0 +1,9 @@
+---
+applications:
+- name: oli-wordpress
+  memory: 128M
+  instances: 1
+  domain: cfapps.io
+  path: .
+  service: mysql-wordpress
+  buildpack: https://github.com/dmikusa-pivotal/cf-php-build-pack
